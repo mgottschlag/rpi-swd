@@ -1,0 +1,17 @@
+
+About
+=====
+
+This is programmer for the STM32F051 microcontroller which is designed to run
+on the Raspberry Pi. It uses the Serial Wire Debug protocol which is a two-wire
+connection which is mostly compatible to JTAG.
+
+Currently the code only implements programming the firmware into flash, other
+operations might be implemented in the future. As the protocol is bit-banged
+and does not have any reliable form of error detection, the quality of the
+result generally will vary.
+
+The code has been shamelessly copied^H^Hinspired by the pirate-swd project
+which implements the protocol for the Bus Pirate.
+https://github.com/willdonnelly/pirate-swd
+
