@@ -11,7 +11,7 @@ operations might be implemented in the future. As the protocol is bit-banged
 and does not have any reliable form of error detection, the quality of the
 result generally will vary.
 
-The code has been shamelessly copied^H^Hinspired by the pirate-swd project
+The code has been shamelessly copied^H^Hinspired from the pirate-swd project
 which implements the protocol for the Bus Pirate.
 https://github.com/willdonnelly/pirate-swd
 
